@@ -1,0 +1,23 @@
+{
+  "name": "instagram-chatbot",
+  "version": "1.0.0",
+  "description": "This is intagram chat bot api",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsabekovTemirlan/instagram-chatbot.git"
+  },
+  "author": "timka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsabekovTemirlan/instagram-chatbot/issues"
+  },
+  "homepage": "https://github.com/IsabekovTemirlan/instagram-chatbot#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
