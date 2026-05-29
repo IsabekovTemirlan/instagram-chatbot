@@ -124,7 +124,7 @@ app.get('/api/tasks/:id', (req, res) => {
   }
 });
 
-// POST /api/tasks - Create new task
+// POST /api/tasks - Create new task - with error
 app.post('/api/tasks', (req, res) => {
   try {
     const { title, description } = req.body;
